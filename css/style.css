@@ -28,7 +28,7 @@
 
 body
 {
-    background: url('images/fond_jaune.png');
+    background: url('../images/fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
@@ -50,7 +50,7 @@ section h1, footer h1, nav a
 
 header
 {
-    background: url('images/separateur.png') repeat-x bottom;
+    background: url('../images/separateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -131,7 +131,7 @@ nav a:hover
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-    background: url('images/akihabara.jpg') no-repeat;
+    background: url('../images/akihabara.jpg') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
@@ -224,4 +224,11 @@ table
 td, th
 {
     border: 1px solid black;
+}
+
+article {
+    background-color: rgba(143, 188, 143, 0.5);
+    border: 3px solid blue;
+    border-radius: 20px;
+    box-shadow: 3px /*decalage horizontal*/ 3px /*decalage vertical*/ 2px /*adoucissement du degrade*/ black /*couleur*/;
 }

@@ -3,7 +3,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<title>Florent - Accueil</title>
 	</head>
 
@@ -59,7 +59,7 @@
                             Donec vel mi non urna vehicula auctor sit amet eu orci. Aliquam at sodales dui, id sodales libero. Nullam egestas scelerisque nisi. Pellentesque viverra mattis lacus, in rutrum ex dapibus a. In eget diam libero. Sed diam turpis, varius sed ligula sit amet, interdum aliquet nulla. Etiam vel dignissim ligula. Aliquam egestas vulputate dui, et iaculis ligula elementum vitae. Nunc maximus nisl nisl, a eleifend tellus rutrum eget. Duis odio felis, semper eu ligula ut, mattis mattis metus. Phasellus accumsan, eros vitae laoreet consequat, nisi nibh dapibus tellus, ac ornare lacus nulla vitae dui. Nunc maximus auctor libero at sagittis. Aenean bibendum, lorem rhoncus placerat hendrerit, magna dolor auctor nulla, non dignissim leo purus non sapien. Fusce aliquam, orci vitae congue molestie, nisi nunc vestibulum arcu, ut venenatis urna dui ac nisi.
                         </p>
 
-                        <a href="#haut">Retourner en haut</a>
+                        <a href="#haut"><img src="images/top.jpg" alt="Retournez en haut" width=200 height=125 /></a>
                     </div>
                 </article>
 
