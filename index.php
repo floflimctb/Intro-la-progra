@@ -8,16 +8,18 @@
 	</head>
 
 	<body>
+        <a name="haut"></a>
         <div id="bloc_page">
-
-            <a name="haut"></a><?php include('entete.inc.html'); ?>
+            <?php include('entete.inc.html'); ?>
 
             <?php include('banniere.inc.html'); ?>
             
             <section>
                 <article>
                     <h2>Site pour l'introduction à la programmation</h2>
-                    <a href="https://www.youtube.com/watch?v=YhN4oAS3O4c" target="_blank"><img src="images/pikachu.jpg" alt="Photo à propos" class="photo_apropos"/></a>
+                    
+                    <a href="https://www.youtube.com/watch?v=YhN4oAS3O4c" target="_blank"><img src="images/pikachu.png" alt="Photo à propos" class="photo_apropos" /></a>
+                    
                     <div class="apropos">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper massa sit amet placerat euismod. Proin finibus ligula sed condimentum condimentum. Aliquam lorem nisi, auctor non nunc laoreet, congue consequat lectus. Maecenas id nunc non massa lobortis facilisis eget tincidunt tellus. Vestibulum fringilla, odio ut tristique fermentum, mauris nisl tincidunt tortor, sit amet blandit arcu mi et orci. Cras vehicula diam vel magna pretium, id efficitur turpis volutpat. Aenean purus mauris, porttitor vel ultrices sit amet, faucibus id lacus. Sed suscipit tincidunt euismod. Nunc dignissim lectus at suscipit mattis. Pellentesque hendrerit, sapien sed mollis pretium, felis ligula efficitur ex, vel dignissim lorem magna tempus arcu. In maximus non dolor sit amet molestie. Praesent nunc eros, viverra ut enim nec, auctor vehicula velit. Nam accumsan ac nisl et suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sit amet ex vel justo convallis venenatis. Integer venenatis neque diam, tempor fermentum justo sodales id.
@@ -57,13 +59,15 @@
 
                         <p>
                             Donec vel mi non urna vehicula auctor sit amet eu orci. Aliquam at sodales dui, id sodales libero. Nullam egestas scelerisque nisi. Pellentesque viverra mattis lacus, in rutrum ex dapibus a. In eget diam libero. Sed diam turpis, varius sed ligula sit amet, interdum aliquet nulla. Etiam vel dignissim ligula. Aliquam egestas vulputate dui, et iaculis ligula elementum vitae. Nunc maximus nisl nisl, a eleifend tellus rutrum eget. Duis odio felis, semper eu ligula ut, mattis mattis metus. Phasellus accumsan, eros vitae laoreet consequat, nisi nibh dapibus tellus, ac ornare lacus nulla vitae dui. Nunc maximus auctor libero at sagittis. Aenean bibendum, lorem rhoncus placerat hendrerit, magna dolor auctor nulla, non dignissim leo purus non sapien. Fusce aliquam, orci vitae congue molestie, nisi nunc vestibulum arcu, ut venenatis urna dui ac nisi.
-                        </p>
-
-                        <a href="#haut"><img src="images/top.jpg" alt="Retournez en haut" width=200 height=125 /></a>
+                        </p>                        
                     </div>
+                    
+                    <a href="#haut"><img src="images/top.png" alt="Retournez en haut" width=200 height=125 /></a>
+                    
                 </article>
-
+                
                 <?php include('aside.inc.html'); ?>
+                
             </section>
         </div>
     </body>

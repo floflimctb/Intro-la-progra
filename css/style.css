@@ -1,7 +1,6 @@
 /* Définition des polices personnalisées */
 
-@font-face
-{
+@font-face {
     font-family: 'BallparkWeiner';
     src: url('polices/ballpark.eot');
     src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
@@ -12,8 +11,7 @@
     font-style: normal;
 }
 
-@font-face
-{
+@font-face {
     font-family: 'Dayrom';
     src: url('polices/dayrom.eot');
     src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
@@ -26,21 +24,18 @@
 
 /* Eléments principaux de la page */
 
-body
-{
+body {
     background: url('../images/fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
 
-#bloc_page
-{
+#bloc_page {
     width: 900px;
     margin: auto;
 }
 
-section h1, footer h1, nav a
-{
+section h1, footer h1, nav a {
     font-family: Dayrom, serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -48,86 +43,74 @@ section h1, footer h1, nav a
 
 /* Header */
 
-header
-{
+header {
     background: url('../images/separateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-#titre_principal
-{
+#titre_principal {
     display: flex;
     flex-direction: column;
 }
 
-#logo
-{
+#logo {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
 
-#logo img
-{
+#logo img {
     width: 130px;
     height: 60px;
 }
 
-header h1
-{
+header h1 {
     font-family: 'BallparkWeiner', serif;
     font-size: 2.5em;
     font-weight: normal;
     margin: 0 0 0 10px;
 }
 
-header h2
-{
+header h2 {
     font-family: Dayrom, serif;
     font-size: 1.1em;
     margin-top: 0px;
     font-weight: normal;
 }
 
-#logo h1 a, #logo h1 a:visited
-{
+#logo h1 a, #logo h1 a:visited {
     color: black;
     text-decoration: none;
 }
 
 /* Navigation */
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
 }
 
-nav li
-{
+nav li {
     margin-right: 15px;
 }
 
-nav a
-{
+nav a {
     font-size: 1.3em;
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #760001;
     border-bottom: 3px solid #760001;
 }
 
 /* Bannière */
 
-#banniere_image
-{
+#banniere_image {
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
@@ -138,8 +121,7 @@ nav a:hover
     overflow: hidden;
 }
 
-#banniere_description
-{
+#banniere_description {
     position: absolute;
     bottom: 0;
     border-radius: 0px 0px 5px 5px;
@@ -154,30 +136,25 @@ nav a:hover
 
 /* Corps */
 
-section
-{
+section {
     display: flex;
     margin-bottom: 20px;
 }
 
-article, aside
-{
+article, aside {
     text-align: justify;
 }
 
-article
-{
+article {
     margin-right: 20px;
     flex: 3;
 }
 
-article p
-{
+article p {
     font-size: 0.8em;
 }
 
-aside
-{
+aside {
     flex: 1.2;
     position: relative;
     background-color: #706b64;
@@ -186,49 +163,53 @@ aside
     padding: 10px;
     color: white;
     font-size: 0.9em;
+    height: inherit;
 }
 
-aside img
-{
+aside img {
     margin-right: 5px;
 }
 
-#photo_presentation
-{
+#photo_presentation {
     text-align: right;
     border: 3px #2e629f outset;
 }
 
-.photo_apropos
-{
+.photo_apropos {
     float: left;
     margin-right: 10px;
 }
 
-#banniere_description a 
-{
+#banniere_description a  {
     color: white;
     text-decoration: none;
 }
 
-#banniere_description a:visited
-{
+#banniere_description a:visited {
     color: white;
     text-decoration: none;
 }
 
-table
-{
+table {
     border-collapse: collapse;
 }
-td, th
-{
+td, th {
     border: 1px solid black;
 }
 
 article {
-    background-color: rgba(143, 188, 143, 0.5);
-    border: 3px solid blue;
+    background-color: rgba(224, 142, 69, 0.3);
+    border: 3px solid rgba(107, 39, 55, 0.65);
     border-radius: 20px;
-    box-shadow: 3px /*decalage horizontal*/ 3px /*decalage vertical*/ 2px /*adoucissement du degrade*/ black /*couleur*/;
+    box-shadow: 3px /*decalage horizontal*/ 3px /*decalage vertical*/ 2px /*adoucissement du degrade*/ rgb(57, 67, 83);
+    padding: 10px; /*Haut, Droite, Bas, Gauche*/
+}
+
+article:hover {
+    border: 3px solid rgba(189, 247, 183, 0.65);
+    box-shadow: 3px /*decalage horizontal*/ 3px /*decalage vertical*/ 2px /*adoucissement du degrade*/ rgb(224, 142, 69);
+}
+
+.photo_apropos {
+    float: none;
 }
